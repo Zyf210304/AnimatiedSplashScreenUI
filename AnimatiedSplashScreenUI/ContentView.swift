@@ -14,7 +14,7 @@ struct ContentView: View {
         SplashScreen(imageSize:CGSize(width: 128, height: 128)) {
             
             //HomeView
-            
+            Home()
             
         } titleView: {
         
@@ -31,6 +31,19 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fill)
 //                .frame(width: 128, height: 128)
                 .clipShape(Circle())
+        } navButton: {
+            
+            Button {
+                
+            } label: {
+                
+                Image("headerImg")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 35, height: 35)
+                    .clipShape(Circle())
+            }
+
         }
 
     }
