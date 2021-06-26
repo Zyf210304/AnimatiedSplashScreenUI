@@ -9,8 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        
+        SplashScreen(imageSize:CGSize(width: 128, height: 128)) {
+            
+            //HomeView
+            
+            
+        } titleView: {
+        
+            Text("Chatty")
+                .font(.system(size: 35).bold())
+                .foregroundColor(.white)
+            
+            
+        } logoView: {
+            
+            //make sure to give exact size of logo frame here...
+            Image("logo")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+//                .frame(width: 128, height: 128)
+                .clipShape(Circle())
+        }
+
     }
 }
 

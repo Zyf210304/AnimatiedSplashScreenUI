@@ -11,6 +11,7 @@
 		024D159A268749B90091E404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D1599268749B90091E404 /* ContentView.swift */; };
 		024D159C268749B90091E404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024D159B268749B90091E404 /* Assets.xcassets */; };
 		024D159F268749B90091E404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024D159E268749B90091E404 /* Preview Assets.xcassets */; };
+		024D15A726874B540091E404 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D15A626874B540091E404 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		024D1599268749B90091E404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		024D159B268749B90091E404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		024D159E268749B90091E404 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		024D15A626874B540091E404 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		024D1596268749B90091E404 /* AnimatiedSplashScreenUI */ = {
 			isa = PBXGroup;
 			children = (
+				024D15A526874B320091E404 /* View */,
 				024D1597268749B90091E404 /* AnimatiedSplashScreenUIApp.swift */,
 				024D1599268749B90091E404 /* ContentView.swift */,
 				024D159B268749B90091E404 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				024D159E268749B90091E404 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		024D15A526874B320091E404 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				024D15A626874B540091E404 /* SplashScreen.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024D15A726874B540091E404 /* SplashScreen.swift in Sources */,
 				024D159A268749B90091E404 /* ContentView.swift in Sources */,
 				024D1598268749B90091E404 /* AnimatiedSplashScreenUIApp.swift in Sources */,
 			);
