@@ -38,7 +38,7 @@ struct SplashScreen<Content: View, Title: View, Logo: View, NavButton:View>: Vie
     
     var body: some View {
     
-        VStack(spacing:10) {
+        VStack(spacing: 0) {
             
             ZStack {
                 
